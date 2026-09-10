@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Shop Boat Parts | Blackwater Marine</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+<header class="site-header">
+
+    <a href="index.html" class="logo">
+
+        <img
+            src="images/logo.png"
+            alt="Blackwater Marine"
+        >
+
+        <span>BLACKWATER MARINE</span>
+
+    </a>
+
+
+    <nav class="main-nav">
+
+        <a href="index.html">
+            HOME
+        </a>
+
+        <a href="shop.html">
+            SHOP
+        </a>
+
+        <a href="index.html#about">
+            ABOUT
+        </a>
+
+        <button
+            id="cart-button"
+            class="cart-button"
+        >
+            CART
+            <span id="cart-count">0</span>
+        </button>
+
+    </nav>
+
+</header>
+
+
+
+<section class="shop-hero">
+
+    <p class="eyebrow">
+        BLACKWATER MARINE
+    </p>
+
+    <h1>
+        BOAT PARTS
+    </h1>
+
+    <p>
+        Browse our collection of marine parts
+        and equipment.
+    </p>
+
+</section>
+
+
+
+<section class="shop-section">
+
+
+    <div class="shop-controls">
+
+
+        <div class="search-box">
+
+            <input
+                type="search"
+                id="search"
+                placeholder="Search part number, manufacturer..."
+            >
+
+        </div>
+
+
+        <select id="category-filter">
+
+            <option value="all">
+                All Categories
+            </option>
+
+            <option value="Outboard">
+                Outboards
+            </option>
+
+            <option value="Propellers">
+                Propellers
+            </option>
+
+            <option value="Electrical">
+                Electrical
+            </option>
+
+            <option value="Hardware">
+                Hardware
+            </option>
+
+        </select>
+
+
+    </div>
+
+
+    <div
+        id="shop-products"
+        class="product-grid"
+    >
+
+    </div>
+
+
+</section>
+
+
+
+<footer class="site-footer">
+
+    <div>
+
+        <h3>
+            BLACKWATER MARINE
+        </h3>
+
+        <p>
+            Quality boat parts & marine equipment.
+        </p>
+
+    </div>
+
+
+    <div class="copyright">
+
+        © 2026 Blackwater Marine
+
+    </div>
+
+</footer>
+
+
+
+<div
+    id="cart-overlay"
+    class="cart-overlay"
+></div>
+
+
+<aside
+    id="cart"
+    class="cart"
+>
+
+    <div class="cart-header">
+
+        <h2>
+            YOUR CART
+        </h2>
+
+        <button
+            id="close-cart"
+            class="close-cart"
+        >
+            ×
+        </button>
+
+    </div>
+
+
+    <div
+        id="cart-items"
+        class="cart-items"
+    ></div>
+
+
+    <div class="cart-footer">
+
+        <div class="cart-total">
+
+            <span>
+                SUBTOTAL
+            </span>
+
+            <strong id="cart-total">
+                $0.00
+            </strong>
+
+        </div>
+
+
+        <button
+            id="checkout-button"
+            class="checkout-button"
+        >
+            CHECKOUT
+        </button>
+
+    </div>
+
+</aside>
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
